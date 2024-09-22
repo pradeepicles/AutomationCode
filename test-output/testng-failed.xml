@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="methods" name="Entrata-Test(failed)">
+    <classes>
+      <class name="test.EntrataTest">
+        <methods>
+          <include name="webDriverSetUp"/>
+          <include name="verifyAlreadyRegisterFUnctionalityWithIncorrectDetails"/>
+          <include name="webDriverQuit"/>
+        </methods>
+      </class> <!-- test.EntrataTest -->
+    </classes>
+  </test> <!-- Entrata-Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

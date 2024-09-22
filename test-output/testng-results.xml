@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-22T19:02:10 IST" name="Suite" finished-at="2024-09-22T19:03:03 IST" duration-ms="52967">
+    <groups>
+    </groups>
+    <test started-at="2024-09-22T19:02:10 IST" name="Entrata-Test" finished-at="2024-09-22T19:03:03 IST" duration-ms="52967">
+      <class name="test.EntrataTest">
+        <test-method is-config="true" signature="webDriverSetUp()[pri:0, instance:test.EntrataTest@78047b92]" started-at="2024-09-22T19:02:10 IST" name="webDriverSetUp" finished-at="2024-09-22T19:02:19 IST" duration-ms="9179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webDriverSetUp -->
+        <test-method signature="verifyAlreadyRegisterFUnctionalityWithIncorrectDetails()[pri:0, instance:test.EntrataTest@78047b92]" started-at="2024-09-22T19:02:19 IST" name="verifyAlreadyRegisterFUnctionalityWithIncorrectDetails" finished-at="2024-09-22T19:02:35 IST" duration-ms="15866" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [This confirmation number doesn't exist.] but found [You've reached your maximum number of login attempts. Contact the event planner to continue.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [This confirmation number doesn't exist.] but found [You've reached your maximum number of login attempts. Contact the event planner to continue.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at test.EntrataTest.verifyAlreadyRegisterFUnctionalityWithIncorrectDetails(EntrataTest.java:138)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAlreadyRegisterFUnctionalityWithIncorrectDetails -->
+        <test-method is-config="true" signature="webDriverQuit()[pri:0, instance:test.EntrataTest@78047b92]" started-at="2024-09-22T19:02:35 IST" name="webDriverQuit" finished-at="2024-09-22T19:02:37 IST" duration-ms="2140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webDriverQuit -->
+        <test-method is-config="true" signature="webDriverSetUp()[pri:0, instance:test.EntrataTest@78047b92]" started-at="2024-09-22T19:02:37 IST" name="webDriverSetUp" finished-at="2024-09-22T19:02:44 IST" duration-ms="7377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webDriverSetUp -->
+        <test-method signature="verifyProductListOfEntrataWebsite()[pri:0, instance:test.EntrataTest@78047b92]" started-at="2024-09-22T19:02:44 IST" name="verifyProductListOfEntrataWebsite" finished-at="2024-09-22T19:02:50 IST" duration-ms="5070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductListOfEntrataWebsite -->
+        <test-method is-config="true" signature="webDriverQuit()[pri:0, instance:test.EntrataTest@78047b92]" started-at="2024-09-22T19:02:50 IST" name="webDriverQuit" finished-at="2024-09-22T19:02:50 IST" duration-ms="444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webDriverQuit -->
+        <test-method is-config="true" signature="webDriverSetUp()[pri:0, instance:test.EntrataTest@78047b92]" started-at="2024-09-22T19:02:50 IST" name="webDriverSetUp" finished-at="2024-09-22T19:02:58 IST" duration-ms="7784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webDriverSetUp -->
+        <test-method signature="verifyScheduleDemoFormForEntrataWebsite()[pri:0, instance:test.EntrataTest@78047b92]" started-at="2024-09-22T19:02:58 IST" name="verifyScheduleDemoFormForEntrataWebsite" finished-at="2024-09-22T19:03:02 IST" duration-ms="4460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyScheduleDemoFormForEntrataWebsite -->
+        <test-method is-config="true" signature="webDriverQuit()[pri:0, instance:test.EntrataTest@78047b92]" started-at="2024-09-22T19:03:02 IST" name="webDriverQuit" finished-at="2024-09-22T19:03:03 IST" duration-ms="512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webDriverQuit -->
+      </class> <!-- test.EntrataTest -->
+    </test> <!-- Entrata-Test -->
+  </suite> <!-- Suite -->
+</testng-results>
